@@ -140,6 +140,7 @@ body{
     top:0;
     left:0;
     opacity:0;
+    text-align: center;
 
 }
 .list1{
@@ -233,7 +234,7 @@ body{
     margin-left:80px;
     gap:24px;
     justify-content:space-between 
-    list-style:none;
+
 }
 .images:hover{
     display:flex;
