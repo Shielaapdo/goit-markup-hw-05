@@ -233,6 +233,7 @@ body{
     margin-left:80px;
     gap:24px;
     justify-content:space-between 
+    list-style:none;
 }
 .images:hover{
     display:flex;
@@ -549,11 +550,17 @@ body{
     line-height: 24px; 
     letter-spacing: 1.5px;
 }
+.btn-button1:hover{
+    background: #2404a7;
+    color:white;
+  
+
+}
 .btn-button1{
     cursor:pointer;
     opacity:1;
     display:flex;
-    color: var(--WHITE, #FFF);
+    color: var(--WHITE, #2404a7);
     text-align: center;
     align-content:center;
     font-family: Roboto;
@@ -569,7 +576,7 @@ body{
     flex-direction:row;
     gap:50px;
     border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
+    background: var(--OCEAN, #fbfbff);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .btn-button{ 
