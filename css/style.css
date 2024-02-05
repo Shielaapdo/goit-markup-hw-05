@@ -117,6 +117,7 @@ body{
 }
 .project-image{
     position:relative;
+    list-style:none;
 
 }
 .project:hover .project-image-caption{
@@ -281,7 +282,7 @@ body{
     background:var(--NAVY-BLUE, #2E2F42);
     text-align:left;
     align-items:left;
-    width:1272px;
+    width:1350px;
     height:200px;
     justify-content:left;
     flex-shrink:0;
@@ -289,7 +290,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;color: var(--CLOUD, #F4F4FD);
-    margin:100px auto 0 205px;
+    margin:100px auto 0 110px;
 }
 .hero-btn{
     display: inline-flex;
