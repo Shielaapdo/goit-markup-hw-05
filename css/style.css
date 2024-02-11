@@ -112,13 +112,15 @@ body{
     width:360px;
 }
 .project li img{
-    width: 100%;
+    width:100%;
     display:block;
+    opacity:1;
 }
 .project-image{
     position:relative;
     list-style:none;
     overflow:hidden;
+    opacity:1;
 }
 .project:hover .project-image-caption{
     opacity:1;
@@ -129,20 +131,27 @@ body{
     padding: 40px 32px;
 
 }
-.hero-btn data-modal-open{
-
-}
 .data-model-close{
     
 }
+.hero-btn data-modal-open{
+width:100%;
+height:100%;
+background-color:blue;
+opacity:0.7;
+position:absolute;
+top:0;
+}
+
 .project{
     overflow:hidden;
 }
+/*
 .project:hover{
     opacity:1;
     
 }
-
+*/
 /*
 .caption{
     position:absolute;
@@ -151,7 +160,7 @@ body{
 }*/
 .project-image-caption{
     position:absolute;
-    background-color: rgba(77,90,229,1);
+    background-color: rgba(77,90,229,0.5);
     color:white;
     width:100%;
     height:80%;
@@ -285,7 +294,7 @@ body{
     height:584px;
 }
 .is-hidden{
-    visibility: hidden;
+    visibility:hidden;
 }
 .img2-des{
     display:flex;
@@ -826,16 +835,27 @@ body{
     margin-right:50px;
     margin-left:300px;
     padding-top:2px;
+ 
 }
 .team-social2{    
-    display:flex;
+   /* display:flex;
     display:inline-flex;
     text-align:center;
     justify-content:center;
     align-items:center;
     margin-top:0 auto;
     margin:0 auto;
-    padding-top:2px;
+    padding-top:2px;*/
+
+    display:flex;
+    display:inline-flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    margin-top:0 auto;
+    margin-right:2px;
+    margin-left:10px;
+    padding-top:2px; 
 
 }
 .team-social{
@@ -869,7 +889,7 @@ body{
    
 }
 .alpha2{
-    display:flex;
+  /*  display:flex;
     display:inline-flex;
     fill:white;
     background-color: blue;
@@ -880,7 +900,20 @@ body{
     gap:5px;
     border-radius:50px;
     justify-content:center;
+    align-items:center;*/
+
+    display:flex;
+    display:inline-flex;
+    background-color:var(--IRIS);
+    fill:white;
+    background-color: blue;
+    padding:15px;
+    padding-bottom: 15px;
+    margin:0 auto;
+    border-radius:50px;
+    justify-content:center;
     align-items:center;
+
 }
 .sc{
     display:flex;
