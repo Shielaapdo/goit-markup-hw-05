@@ -132,7 +132,10 @@ body{
     padding: 40px 32px;
 
 }
-.data-model-close{
+.data modal open-is-hidden{
+
+}
+.close data-modal-close{
     
 }
 .hero-btn data-modal-open {
