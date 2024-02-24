@@ -1,4 +1,4 @@
-js/modal.js
+
 
 (() => {
   const refs = {
