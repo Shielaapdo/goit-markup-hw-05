@@ -1,6 +1,6 @@
 
 .web-logo{
-    display:flex;
+    dplay:flex;
     width: 44px;
     height: 21px;
     flex-direction: column;
@@ -269,7 +269,7 @@ justify-content:space-between;
 .text{
      color: var(--NAVY-BLUE, #2E2F42);
      text-align: center;
-     font-family: Roboto;ct
+     font-family: Roboto;
      font-size: 36px;
      font-style: normal;
      font-weight: 700;
@@ -349,8 +349,8 @@ justify-content:space-between;
 }
 .data-modal{
     background-color:white;
-    width:380px;
-    height:885px;
+    width:600px;
+    height:886px;
    /* align-items:center;*/
    /* justify-content:center;*/
     position:absolute;
@@ -358,7 +358,7 @@ justify-content:space-between;
     top: 1px;
     right:20px;
     bottom:0;
-    left:350px; 
+    left:400px; 
 }
 .data-modal.box{
     size:100%;
@@ -1182,4 +1182,245 @@ justify-content:space-between;
     margin-top:100px;
     margin-bottom:30px;
   
+  }
+  .sub{
+    display:flex;
+    bottom:7px;
+  }
+  .subs{
+    display:flex;
+    bottom:10px;
+  }
+  .Subcribe1{
+    display:flex;
+    font-size:15px;
+    background:#2404a7;
+    color:white;
+    fill:#e7e9fc;
+    gap:2px;
+    margin-left:1px;;
+    margin-right:1px;
+    margin-top:0 auto;
+    width:9%;
+    height:14%; 
+    align-items:center;
+    justify-content:center;
+    align-self:center;
+
+  }
+  .email{
+    /*
+    display:flex;
+    display:inline-block;
+   /* align-self:flex-start;
+    align-content:flex-start;*/
+   
+   /* justify-content:center;
+    height:100%;
+    width:100%;
+    padding:0 auto;
+    font-size:20px;
+    align-items:flex-start;
+    align-self:auto;
+    bottom:100px;
+    padding:20px;
+    top:20px;
+    margin-left:30px;
+    line-height:2; */
+
+    margin-top:9px;
+    margin-left:1px;
+    margin-right:1px;
+    bottom:15px;
+    height:100px;
+    width:20%;
+    padding:20px;
+    font-size:18px;
+    align-items:flex-start;
+    justify-content:center;
+    background-color:none;
+    border-radius:4px;
+    
+    
+  }
+  .email2{
+    margin-top:17px;
+    margin-left:5px;
+    margin-right:0 auto;
+    bottom:15px;
+    height:100px;
+    width:20%;
+    padding:20px;
+    font-size:18px;
+    align-items:center;
+    background-color:none;
+    border-radius:4px;
+  }
+  .email3{
+    display:flex;
+    margin-top:20px;
+    margin-left:30px;
+    margin-right:0 auto;
+    bottom:15px;
+    height:130px;
+    width:20%;
+    padding:20px;
+    font-size:18px;
+    align-items:center;
+    background-color:none;
+    border-radius:4px;
+
+  }
+  .emails{
+    display:flex;
+    display:inline-block;
+    justify-content:center;
+    height:100%;
+    width:100%;
+    padding:0 auto;
+    font-size:20px;
+    align-items:center;
+    align-self:center;
+    bottom:100%;
+    padding:20px;
+    top:20px;
+    margin-left:15px;
+    margin-right:50px;
+    line-height:2;
+
+  }
+  .Name{
+    display:flex;
+    margin-left:100px;
+    margin-right:0 auto;
+    padding-left:0 auto;
+    size: 10px;
+  }
+  .Name1{
+    display:flex;
+    margin-left:100px;
+    margin-right:0 auto;
+    padding-left:0 auto;
+    size: 10px;
+
+  }
+  .Phone{
+    display:flex;
+    margin-left:100px;
+    margin-right:0 auto;
+    padding-left:0 auto;
+    size: 10px;
+  }
+  .email00{
+    display:flex;
+    margin-left:100px;
+    margin-right:0 auto;
+    padding-left:0 auto;
+    size: 10px;
+
+  }
+  .comments{
+    display:flex;
+    margin-left:100px;
+    margin-right:0 auto;
+    padding-left:0 auto;
+    size: 10px;
+  }
+
+  .label{
+    width:100%;
+    display:inline-block;
+    text-align:left;
+  }
+  .email svg{
+    display:flex;
+    align-items:flex-start;
+    size:2px;
+    height:30px;
+
+  }
+  .person svg{
+    display:flex;
+    fill:blue;
+    justify-content: flex-start;
+    margin-left:0 auto;
+    margin-right:200px;
+    
+  }
+  .email1{
+    margin-top:30px;
+    margin-right:1px;
+    height:100px;
+    width:150px;
+    padding:0 auto;
+    font-size:18px;
+    align-items:center;
+    background-color:none;
+    border-radius:4px;
+  }
+  
+  .send{
+    margin-top:10px;
+    margin-left:100px;
+    margin-right:100px;
+    padding-left:100px;
+  }
+  .btn-Subribe{
+    display:flex;
+    margin-top:5px;
+  }
+    .comment{
+    height:200px;
+    width:100px;
+    padding:100%;
+    
+  }
+  textarea{
+    resize:none;
+  }
+
+  .Subcribe {
+    display:flex;
+    font-size:15px;
+    background:#2404a7;
+    color:white;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:53px;
+    width:9%;
+    height:14%;  
+    align-items:center;
+    justify-content:center;
+
+  }
+   .Subcribe svg{
+    
+    gap:5px;
+    margin-left:5px;
+    fill:white;
+  }
+  .inputemail{
+    padding:5px;
+  }
+  .label{
+    flex-direction:column;
+  }
+  .checkbox{
+    display:flex;
+    margin-top:20px;
+  }
+  .Send1{
+    background-color: #4D5AE5;
+    font-size: 20px;
+    color:#f2f2fa;
+    height:70px;
+    width:200px;
+    margin-top:20px;
+  }
+  .Send{
+    background-color: #4D5AE5;
+    font-size: 20px;
+    color:#f2f2fa;
+    height:70px;
+    width:200px;
   }
