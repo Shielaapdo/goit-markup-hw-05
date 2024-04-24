@@ -1336,7 +1336,7 @@ justify-content:space-between;
     margin-left:15px;
     margin-right:0 auto;
     margin-bottom:0 auto;
-    padding-left:0 auto;
+    padding-left:5px;;
     padding-top:7px;
     padding-bottom:30px;
     width:370px;
@@ -1375,13 +1375,23 @@ justify-content:space-between;
   .form{
     position:relative;
   }
-  .email svg{
+  .email0 svg{
     display:flex;
     align-items:flex-start;
     size:2px;
     height:30px;
+    padding-left:5px;
 
   }
+  .email0{
+    display:flex;
+    padding-left:5px;
+  }
+  .phone{
+    display:flex;
+    padding-left:5px;
+  }
+  
   .person svg{
     display:flex;
     position:relative;
