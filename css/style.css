@@ -154,7 +154,7 @@ body{
 /*
 .togglemodal{
     display:flex;
-    align-items:left; 
+    align-items:left;
 
 }
 */
@@ -986,8 +986,6 @@ justify-content:space-between;
     align-items:center;
    
 }
-
-
 .alpha2{
   /*  display:flex;
     display:inline-flex;
@@ -1295,7 +1293,7 @@ justify-content:space-between;
     bottom:100%;
     padding:20px;
     top:20px;
-    margin-left:8px;
+    margin-left:30px;
     margin-right:60px;
     line-height:2;
 
@@ -1304,7 +1302,7 @@ justify-content:space-between;
     display:flex;
     align-items:center;
     justify-content:center;
-    margin-left:15px;
+    margin-left:10px;
     width:100%;
   }
   .checkbox1{
@@ -1315,7 +1313,7 @@ justify-content:space-between;
   }
   .Name{
     display:flex;
-    margin-left:41px;
+    margin-left:57px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 50px;
@@ -1330,28 +1328,31 @@ justify-content:space-between;
     size: 50px;
     width:500px;
     height:50px;
-    margin:10px 1px;  
+    margin:10px 1px;
+  
   }
-  .input field{
+  .input.field{
     display:flex;
-    margin-left:100px;
+    margin-left:15px;
     margin-right:0 auto;
-    margin-bottom:3px;
+    margin-bottom:0 auto;
     padding-left:0 auto;
-    size: 30px;
-    width:500px;
-    padding:100px;
+    padding-top:7px;
+    padding-bottom:30px;
+    width:370px;
+    padding:8px ;
+    border:none;
   }
   .Phone{
     display:flex;
-    margin-left:41px;
+    margin-left:57px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
   }
   .email00{
     display:flex;
-    margin-left:41px;
+    margin-left:58px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
@@ -1359,7 +1360,7 @@ justify-content:space-between;
   }
   .comments{
     display:flex;
-    margin-left:41px;
+    margin-left:58px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
@@ -1401,16 +1402,16 @@ justify-content:space-between;
   .N1{
     display:flex;
     align-items:center; 
-    margin-left:36px;
+    margin-left:57px;
     position:relative;
     min-height:5vh;  
-    width:100%;  
-    border:5px;
+    width:80%;  
+    border:1px Solid black;
   }
   .N4{
     display:flex;
     align-items:flex-start; 
-    margin-left:42px;
+    margin-left:57px;
     size:100px;
     width:100%;
     min-height:50px;
@@ -1419,7 +1420,7 @@ justify-content:space-between;
   .check{
     display:flex;
     align-items:flex-start;
-    margin-left:41px;
+    margin-left:58px;
   }
 
   .email1{
@@ -1488,16 +1489,16 @@ justify-content:space-between;
     margin-top:20px;
     font-size:18px;
     font-weight:1000px;
-    size:10px;
+    size:40px;
     width:100%;
 
   }
   .checkbox{
     display:flex;
     margin-top:20px;
-    font-size:16px;
+    font-size:40px;
     font-style:normal;
-    font-weight:800px;
+    font-weight:250px;
   }
   .Send1{
     background-color: #4D5AE5;
