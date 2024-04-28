@@ -1313,7 +1313,7 @@ justify-content:space-between;
   }
   .Name{
     display:flex;
-    margin-left:57px;
+    margin-left:15px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 50px;
@@ -1346,14 +1346,14 @@ justify-content:space-between;
   }
   .Phone{
     display:flex;
-    margin-left:57px;
+    margin-left:15px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
   }
   .email00{
     display:flex;
-    margin-left:58px;
+    margin-left:15px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
@@ -1361,7 +1361,7 @@ justify-content:space-between;
   }
   .comments{
     display:flex;
-    margin-left:58px;
+    margin-left:15px;
     margin-right:0 auto;
     padding-left:0 auto;
     size: 10px;
@@ -1413,18 +1413,17 @@ justify-content:space-between;
   .N1{
     display:flex;
     align-items:center; 
-    margin-left:57px;
+    margin-left:15px;
     position:relative;
     min-height:5vh;  
-    width:80%;  
+    width:97%;  
     border:1px Solid black;
     border-radius:5px;
-    
   }
   .N4{
     display:flex;
     align-items:flex-start; 
-    margin-left:57px;
+    margin-left:15px;
     size:100px;
     width:100%;
     min-height:50px;
@@ -1434,7 +1433,7 @@ justify-content:space-between;
   .check{
     display:flex;
     align-items:flex-start;
-    margin-left:58px;
+    margin-left:15px;
     size:80px;
     border-style:80px;
     height:50px;
@@ -1525,7 +1524,15 @@ justify-content:space-between;
     height:70px;
     width:200px;
     margin-top:20px;
+    border-radius:5px;
   }
+  .private{
+    margin-left:5px;
+  }
+  .placeholder{
+    padding:10px;
+  }
+  
   .Send{
     background-color: #4D5AE5;
     font-size: 20px;
